@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "OneClickBJUT_SUSHE",
+    "version": "1.0",
+    "description": "一键登录中蓝校区无线网",
+    "icons": {
+        "16": "imgs/icon16.png",
+        "48": "imgs/icon48.png",
+        "128": "imgs/icon128.png"
+    },
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://lgn.bjut.edu.cn/*",
+        "http://10.21.221.98/*"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "imgs/icon16.png",
+            "48": "imgs/icon48.png",
+            "128": "imgs/icon128.png"
+        },
+        "default_popup": "popup.html"
+    }
+}
