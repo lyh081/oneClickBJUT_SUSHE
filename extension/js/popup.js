@@ -104,6 +104,7 @@ function lgn2bjut() {
         xhr.onreadystatechange = function () {
             if(xhr.readyState === 4 && xhr.status === 200){
                 alert("登录成功！")
+                post.style.backgroundColor = "#4285f4"
             }else if(xhr.status !== 200){
                 alert("登录lgn.bjut.edu.cn失败,请检查账号密码");
             }
